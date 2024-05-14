@@ -1,5 +1,5 @@
 site_name: MkDocs Template
-site_url: https://dev.kjuly.com/mkdocs-template
+site_url: https://dev.kjuly.com/mkdocs-template/
 site_description: MkDocs site template, including automated deployment workflows.
 site_author: Kjuly
 copyright: Copyright &copy; 2024 Kaijie Yu
@@ -86,10 +86,10 @@ extra_css:
 extra:
   alternate:
     - name: English
-      link: ./
+      link: /
       lang: en
     - name: 简体中文
-      link: ./zh-Hans/
+      link: /zh-Hans/
       lang: zh
 
   status:
