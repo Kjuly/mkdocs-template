@@ -1,0 +1,13 @@
+INHERIT: '../base.yml'
+
+docs_dir: '../../source/en'
+site_dir: '../../build'
+
+theme:
+  name: material
+  language: en
+
+site_description: 'MkDocs site template, including automated deployment workflows.'
+nav:
+  - Home: index.md
+  - Tags: tags.md

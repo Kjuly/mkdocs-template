@@ -1,0 +1,13 @@
+INHERIT: '../base.yml'
+
+docs_dir: '../../source/zh-Hans'
+site_dir: '../../build/zh-Hans'
+
+theme:
+  name: material
+  language: zh
+
+site_description: 'MkDocs 站点模板，包括自动部署工作流程。'
+nav:
+  - 首页: index.md
+  - 标签: tags.md
