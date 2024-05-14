@@ -85,11 +85,12 @@ extra_css:
 
 extra:
   alternate:
+    # Note: If a custom domain has been provided, just use relative links as shown in the comments.
     - name: English
-      link: /
+      link: https://dev.kjuly.com/mkdocs-template # /
       lang: en
     - name: 简体中文
-      link: /zh-Hans/
+      link: https://dev.kjuly.com/mkdocs-template/zh-Hans/ # /zh-Hans/
       lang: zh
 
   status:
